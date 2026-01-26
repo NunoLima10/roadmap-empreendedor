@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Map, Github } from 'lucide-react';
 
-export const Layout = ({ children }: { children: React.ReactNode }) => {
+export const Layout = ({ children, fullWidth = false }: { children: React.ReactNode; fullWidth?: boolean }) => {
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-950 flex flex-col font-sans text-slate-900 dark:text-slate-50">
       <header className="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-950/80 backdrop-blur supports-[backdrop-filter]:bg-white/60">
@@ -22,7 +22,7 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
         </div>
       </header>
 
-      <main className="flex-1 container mx-auto px-4 py-8">
+      <main className={`flex-1 ${fullWidth ? '' : 'container mx-auto px-4 py-8'}`}>
         {children}
       </main>
 

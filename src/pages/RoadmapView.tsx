@@ -21,7 +21,7 @@ export const RoadmapView = () => {
   }
 
   return (
-    <div className="h-[calc(100vh-8rem)] bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 shadow-inner flex flex-col relative overflow-hidden">
+    <div className="h-[calc(100vh-4rem)] bg-slate-50 dark:bg-slate-950 flex flex-col relative overflow-hidden">
       
       {/* Header Overlay */}
       <div className="absolute top-4 left-4 z-10 bg-white/90 dark:bg-slate-900/90 backdrop-blur p-4 rounded-lg border border-slate-200 dark:border-slate-800 shadow-sm max-w-sm">

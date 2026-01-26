@@ -3,7 +3,7 @@ export interface Link {
   label: string;
 }
 
-export type NodeStatus = 'optional' | 'required' | 'advanced' | 'completed' | 'skipped';
+export type NodeStatus = 'optional' | 'required' | 'advanced' | 'completed' | 'skipped' | 'in-progress';
 
 export interface RoadmapNode {
   id: string;
