@@ -277,4 +277,31 @@ Contratar um contabilista certificado (TOC) para garantir o cumprimento das obri
   ]
 };
 
-export const mockRoadmaps: Roadmap[] = [frontendRoadmap, startupRoadmap, cvEntrepreneurRoadmap];
+const testRoad: Roadmap = {
+  id: "new-roadmap",
+  title: "New Roadmap",
+  description: "Start editing your roadmap...",
+  category: "General",
+  level: "Beginner",
+  nodes: [
+    {
+      id: "start",
+      title: "Inicio do node ",
+      description: "The beginning of the journey.",
+      status: "advanced",
+      content: "# Start Here\n\nWelcome to your new roadmap.",
+      dependsOn: [
+        "node-1769457680715"
+      ]
+    },
+    {
+      id: "node-1769457680715",
+      title: "New mais nodes ",
+      description: "Description...",
+      status: "optional",
+      content: "# New Node"
+    }
+  ]
+}
+
+export const mockRoadmaps: Roadmap[] = [frontendRoadmap, startupRoadmap, cvEntrepreneurRoadmap, testRoad];

@@ -14,6 +14,7 @@ export const Layout = ({ children, fullWidth = false }: { children: React.ReactN
           
           <nav className="flex items-center gap-6 text-sm font-medium text-slate-600 dark:text-slate-400">
             <Link to="/" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Roadmaps</Link>
+            <Link to="/editor" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Editor</Link>
             <a href="#" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">About</a>
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-slate-900 dark:text-slate-100 hover:text-blue-600 transition-colors">
               <Github className="w-5 h-5" />
