@@ -16,7 +16,7 @@ export const Layout = ({ children, fullWidth = false }: { children: React.ReactN
             <Link to="/" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Roadmaps</Link>
             <Link to="/editor" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Editor</Link>
             <a href="#" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">About</a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-slate-900 dark:text-slate-100 hover:text-blue-600 transition-colors">
+            <a href="https://github.com/NunoLima10/roadmap-empreendedor" target="_blank" rel="noopener noreferrer" className="text-slate-900 dark:text-slate-100 hover:text-blue-600 transition-colors">
               <Github className="w-5 h-5" />
             </a>
           </nav>
