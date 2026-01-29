@@ -35,55 +35,12 @@ export const Layout = ({
               EmpreendaMap
             </span>
           </Link>
-
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600 dark:text-slate-400">
-            <Link
-              to="/"
-              className={`relative px-3 py-2 rounded-lg transition-all duration-300 ${
-                isActive("/")
-                  ? "text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/30 font-semibold"
-                  : "hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-800"
-              }`}
-            >
-              Roadmaps
-              {isActive("/") && (
-                <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1/2 h-0.5 bg-blue-600 dark:bg-blue-400 rounded-full" />
-              )}
-            </Link>
-            <Link
-              to="/editor"
-              className={`relative px-3 py-2 rounded-lg transition-all duration-300 ${
-                isActive("/editor")
-                  ? "text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/30 font-semibold"
-                  : "hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-800"
-              }`}
-            >
-              Editor
-              {isActive("/editor") && (
-                <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1/2 h-0.5 bg-blue-600 dark:bg-blue-400 rounded-full" />
-              )}
-            </Link>
-            <Link
-              to="/about"
-              className={`relative px-3 py-2 rounded-lg transition-all duration-300 ${
-                isActive("/about")
-                  ? "text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/30 font-semibold"
-                  : "hover:text-blue-600 dark:hover:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-800"
-              }`}
-            >
-              About
-              {isActive("/about") && (
-                <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1/2 h-0.5 bg-blue-600 dark:bg-blue-400 rounded-full" />
-              )}
-            </Link>
-            <ThemeMenu />
-            <a
-              href="https://github.com/NunoLima10/roadmap-empreendedor"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-slate-900 dark:text-slate-100 hover:text-blue-600 transition-colors"
-            >
+          
+          <nav className="flex items-center gap-6 text-sm font-medium text-slate-600 dark:text-slate-400">
+            <Link to="/" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Roadmaps</Link>
+            <Link to="/editor" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Editor</Link>
+            <a href="#" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">About</a>
+            <a href="https://github.com/NunoLima10/roadmap-empreendedor" target="_blank" rel="noopener noreferrer" className="text-slate-900 dark:text-slate-100 hover:text-blue-600 transition-colors">
               <Github className="w-5 h-5" />
             </a>
           </nav>
