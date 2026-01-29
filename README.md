@@ -1,4 +1,4 @@
-# roadmap-emprendedor
+# EmpreendaMap
 
 > [!WARNING]
 > **Aviso de IA**: Este projeto foi inteiramente desenvolvido por Inteligência Artificial e necessita de rigorosa revisão humana. O código pode conter erros, ineficiências ou vulnerabilidades. Utilize com cautela.
@@ -8,7 +8,7 @@
 
 ## Sobre
 
-O **roadmap-empreendedor** é uma ferramenta pensada para apoiar empreendedores e startups em Cabo Verde, oferecendo uma estrutura para a criação e organização de roadmaps que cubram diferentes etapas do ecossistema empreendedor. O escopo inclui temas como legalização e criação de empresas, contabilidade, formações, bolsas e candidaturas a financiamentos.
+O **EmpreendaMap** é uma ferramenta pensada para apoiar empreendedores e startups em Cabo Verde, oferecendo uma estrutura para a criação e organização de roadmaps que cubram diferentes etapas do ecossistema empreendedor. O escopo inclui temas como legalização e criação de empresas, contabilidade, formações, bolsas e candidaturas a financiamentos.
 
 A proposta é que os conteúdos dos roadmaps sejam escritos e curados por especialistas da comunidade, membros de instituições e, eventualmente, por entidades governamentais.
 
@@ -43,12 +43,14 @@ Este projeto foi construído com uma stack moderna e performática:
 Siga os passos abaixo para rodar o projeto localmente:
 
 1.  **Clone o repositório:**
+
     ```bash
     git clone https://github.com/seu-usuario/roadmap-emprendedor.git
     cd roadmap-emprendedor
     ```
 
 2.  **Instale as dependências:**
+
     ```bash
     pnpm install
     # ou
@@ -56,6 +58,7 @@ Siga os passos abaixo para rodar o projeto localmente:
     ```
 
 3.  **Inicie o servidor de desenvolvimento:**
+
     ```bash
     pnpm dev
     # ou
@@ -70,6 +73,7 @@ Siga os passos abaixo para rodar o projeto localmente:
 Como mencionado, este projeto é um "draft" gerado por IA. **Precisamos da sua ajuda para torná-lo um produto real e robusto!**
 
 Sinta-se à vontade para:
+
 - Refatorar código e melhorar a arquitetura.
 - Adicionar testes automatizados.
 - Corrigir bugs de interface ou lógica.
@@ -83,4 +87,5 @@ Sinta-se à vontade para:
 5.  Abra um Pull Request.
 
 ---
-*Gerado por IA - Jan 2026*
+
+_Gerado por IA - Jan 2026_
